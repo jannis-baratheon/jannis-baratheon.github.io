@@ -1,0 +1,121 @@
+Janusz Wiśniowski
+============
+
+
+
+
+
+
+## SKILLS
+
+  - Web Development - Front-end: HTML CSS Javascript AngularJS Bootstrap 3+ JQuery 
+  - Web Development - Back-end: Java Spring Hibernate Jersey SQL - MySQL, MS SQL, Oracle 
+  - Tools: Intellij IDEA GIT Docker 
+  - Platforms: Windows Linux 
+  - Paradigms: Agile TDD REST 
+  - Other: Atlassian REST APIs - Bitbucket, Confluence, JIRA Atlassian SDK 
+
+## EMPLOYMENT
+
+### *Software Engineer*, [Empirica](http://empirica.pl/) (2017-02 — 2017-12)
+
+A developing firm from Wrocław specializing in creating fin-tech solutions using the Java/Spring/AngularJS stack.
+  - Engaged in building Empirica's robo-advisory platform (Java/Spring/AngularJS)
+  - Worked on making company's algorithmic trading platform compliant with the MIFID2 directive (Java)
+  - Designed, planned and partly developed a virtual payment terminal solution backed by Mangopay's Marketplace Payment Model (Java/Spring/Mangopay API/AngularJS)
+  - Worked on a critical back-office application and fitting it into a larger system developed for Credit Agricole EFL, one of the main customers (Java/Spring/AngularJS)
+  - Worked with junior- and mid- level developers on improving their coding and project skills
+
+### *Software Engineer*, [Infusion Development](https://www.infusion.com/) (2014-08 — 2017-01)
+
+A global consultancy company, currently part of Avanade.
+  - Participated in many short-term delivery projects in various technologies (both front-end and back-end)  for both external (mostly enterprise) and internal customers.
+  - Worked in a team responsible for developing the rate calculation module in an insurance renewal SPA web application for MetLife (AngularJS / Java+Jersey+Hibernate).
+  - Co-designed a client-server FX trading application with a desktop JavaFX client and AKKA messaging for Wells Fargo. Later implemented the window manager module allowing the users to set up complex window layouts (grouping and stacking) and save them as layout profiles. Complexity of the component required extending the standard JavaFX with low-level WinAPI calls.
+  - Worked on Infusion's own product Pulse, which can be referred to as a retail device management service. It provides software installation, upgrading, monitoring and metrics collecting capabilities for a group of devices (phones, kiosks). Developed a supporting dashboard application for reporting aggregate metrics from multiple Pulse environments (.NET WebApi/Node.js/React).
+  - Performed architecture and security reviews for internal applications.
+  - Created a plug-in for embedding custom JIRA-sourced reports and visualizations in Confluence to be used in sales documents and reports.
+  - Worked on a few minor plug-ins for internal systems support - mostly for Atlassian's products (Confluence, Bitbucket-Stash, JIRA).
+  - Converted a batch-driven Apache Spark app to stream processing (Spark Streaming / Kafka) for Barclays. Also created a test data generator for the engine.
+  - Developed a web application for managing employee feedback sessions. ASP MVC application with a Bootstrap and JQuery powered front-end and Microsoft CRM 2016 as a data storage.
+  - Extended the Spring MVC REST API for the next versions of iOS and Android mobile apps for PLS Logistics. Project on a fully remote team spread across a few timezones (US West Coast, Pittsburgh, Wrocław, Kraków).
+
+### *Software Engineer*, [Credit Suisse (via Infusion Development)](https://www.credit-suisse.com/pl/pl.html) (2012-06 — 2014-07)
+
+Credit Suisse Group AG is a Switzerland-based multinational financial services holding company headquartered in Zürich that operates the Credit Suisse Bank and other financial services investments. The bank engaged Infusion to help them with implementing the Strategic Risk Program - a movement towards the improvement and unification of the existing risk infrastructure.
+  - Helped Infusion deliver a tool-set to support Credit-Suisse's main risk calculation engine - PriMo. The end product was called SWorM ('Scheduler WORkflow and Monitoring') and it improved the way the risk calculations run on top of PriMo are scheduled, designed, planned, and audited.
+  - Engaged in the design and kick off of SWorM in the early stage of the project.
+  - Later became part of the UI development team in SWorM. The team managed to deliver a consistent, reliable, and usable user experience for SWorM coherent with other applications across the bank.
+
+### *Software Engineer*, [Opera Software](https://www.opera.com) (2009-01 — 2012-05)
+
+Opera Software is a global company primarily known for its multi-platform web browsers available for a vast selection of devices including mobiles and TVs. The company is involved in maintaining the web standards as a member of W3C. Apart from their browsers Opera's portfolio also includes network traffic optimization systems and advertisement services.
+  - Worked in Opera Mini department delivering a product which brings web-browsing capabilities to almost any device and provides a highly effective network traffic optimization engine.
+  - Engaged in developing Mini Server - large-scale cloud back-end for the Opera Mini client application.
+  - Delivered many successful Opera Mini customizations for major customers from the mobile industry including Vodafone, T-Mobile, Verizon, South Korean Telecom, Bytemobile, TATA, Motricity.
+  - Worked closely with customer's engineering teams taking part in project management (working on SOWs, release plans, planning the functionality, managing resources).
+  - Had my part in taking Opera Mini from 20 mln users in 2009 to over 180 mln in 2012.
+
+### *Software Developer*, [Research & Engineering Center](http://www.rec-global.com/) (2008-10 — 2008-12)
+
+An automotive project for Continental AG. Mostly on-site training in the technologies, systems and procedures used in the automotive industry. The project ended prematurely.
+
+### *Software Engineer*, [Power Media](https://www.power.com.pl/) (2007-09 — 2008-09)
+
+Power Media is a Polish company providing software development, recruitment and IT personnel outsourcing services.
+  - Took part in front-end and back-end rework of the trip-selling engine at TravelPlanet - the biggest Polish on-line travel broker.
+  - Replaced an obsolete non-supported framework preserving compatibility with other systems in the company.
+  - Participated in implementation of the complete process of purchasing a trip on-line.
+  - Worked at integrating data supplied by multiple vendors in a number of formats.
+
+### *Software Engineer*, [InsERT](https://www.insert.com.pl/) (2006-07 — 2007-06)
+
+InsERT is one of the best known Polish software houses offering products that support sales and production improving operations in accounting, financial, and human resources departments and facilitating the analysis of a company's overall standing. The software is aimed at small- and medium-sized businesses. Started at InsERT when an academic project with me on board was awarded 3rd place in "Odkrywcy z kasą 2006" competition set up by the company.
+  - Made an academic project of integrating InsERT's flagship SubiektGT with OsCommerce on-line store solution go commercial as oscGT.
+  - Contributed to Sello - platform supporting on-line sales on EBay and Allegro (with SubiektGT integration).
+
+
+
+
+## EDUCATION
+
+### Wrocław University of Science and Technology (2002-10 — 2007-06)
+
+
+
+
+
+
+## WRITING
+
+### Data mining web server’s logs using the sequential patterns (2007-06)
+
+
+
+
+
+
+## RECOGNITION
+
+### Code Complete, Infusion Development (Jan 2014)
+The award highlights teams or individuals for dedication on a project that has made a significant impact on the company in the areas of innovation. Awarded to the team I worked with on the SWorM project (at Credit Suisse).
+
+### Travelplanet's Award, Travelplanet.pl (Jan 2008)
+Awarded "for masterly project performance".
+
+### Odkrywcy z kasą 2006, InsERT (Jan 2006)
+3rd place awarded to an academic project by the ThinkWare team, which I was a part of, for developing an integration solution between InsERT's sales-support product with osCommerce - an open-source online store solution.
+
+### Scientific Scholarship, Wrocław University Of Technology (Jan 2003)
+Scientific scholarship awarded to students with GPA exceeding a particular threshold.
+
+
+
+
+## INTERESTS
+
+- SPORTS: Football (Soccer) Martial Arts Bicycling 
+
+- MUSIC
+
+
