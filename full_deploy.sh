@@ -2,7 +2,7 @@
 
 VERSION=$1
 
-if [! -z "$(git status --porcelain)" ]
+if [ ! -z "$(git status --porcelain)" ]
 then
 	echo Working directory needs to be clean to perform this operation.
 	exit 1
