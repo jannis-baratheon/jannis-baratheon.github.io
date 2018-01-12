@@ -15,19 +15,41 @@
 </head>
 <body>
 	<iframe src="resumes/resume.html" class="fill-viewport" onload="focus()">
-		The page couldn't be displayed properly because your browser doesn't support iframes. From here you can <a href="resume.html">see the HTML version of my resume</a> or <a href="resume.pdf">download it as PDF</a>.
+		The page couldn't be displayed properly because your browser doesn't support iframes. Please use the download links to download my resume in a number of formats.
 	</iframe>
 	
 	<div class="fixed-top d-flex justify-content-center m-1">
-		<div class="border border-1 border-info rounded bg-light">
+		<div class="download-links border border-1 border-info rounded">
 
-			<div class="p-1 px-3 text-center small">
-				<a href="resumes/resume.zip" download="resume.zip"><i class="fa fa-file-archive-o" aria-hidden="true"></i> ZIP</a>&nbsp;
-				<a href="resumes/resume.txt" download="resume.txt"><i class="fa fa-file-text-o" aria-hidden="true"></i> TXT</a>&nbsp;
-				<a href="resumes/resume.md" download="resume.md"><i class="fa fa-file-text-o" aria-hidden="true"></i> MD</a>&nbsp;
-				<a href="resumes/resume.pdf" download="resume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> PDF</a>&nbsp;
-				<a href="resumes/resume.html" download="resume.html"><i class="fa fa-code" aria-hidden="true"></i> HTML</a>
+			<div class="p-1 px-2 text-center small">
+				<a href="resumes/resume.zip" download="resume.zip" title="Download all formats as a ZIP archive">
+					<span class="fa-stack" aria-hidden="true">
+						<i class="fa fa-file-archive-o fa-stack-1x"></i>
+					</span> bundle
+				</a>&nbsp;
+				<a href="resumes/resume.txt" download="resume.txt" title="Download the text version">
+					<span class="fa-stack">
+						<i class="fa fa-file-text-o fa-stack-1x"></i>
+					</span> txt
+				</a>&nbsp;
+				<a href="resumes/resume.md" download="resume.md" title="Download the markdown version">
+					<span class="fa fa-stack">
+						<i class="fa fa-file-o fa-stack-1x"></i>
+						<i class="devicons devicons-markdown"></i>
+					</span> md
+				</a>&nbsp;
+				<a href="resumes/resume.pdf" download="resume.pdf" title="Download the PDF version">
+					<span class="fa-stack" aria-hidden="true">
+						<i class="fa fa-file-pdf-o fa-stack-1x"></i>
+					</span> pdf
+				</a>&nbsp;
+				<a href="resumes/resume.html" download="resume.html" title="Download the HTML version">
+					<span class="fa-stack" aria-hidden="true">
+						<i class="fa fa-code fa-stack-1x"></i>
+					</span> html
+				</a>
 			</div>
+
 		</div>
 	</div>
 	
