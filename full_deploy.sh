@@ -27,6 +27,7 @@ echo Pushing dist and tags...
 git add -A .
 git commit -m "Deploying ${VERSION}"
 git tag ${VERSION}
+git push origin
 git push --tags
 
 echo Deploying...
