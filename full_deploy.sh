@@ -17,7 +17,7 @@ fi
 echo Building...
 ./build.sh
 
-if [-z "$(git status --porcelain)" ]
+if [ -z "$(git status --porcelain)" ]
 then
 	echo No changes to deploy. Aborting.
 	exit 1
