@@ -3,6 +3,8 @@
 INTERMEDIATE_DIRECTORY=intermediate
 DIST_DIRECTORY=dist
 
+yarn
+
 # clean
 rm -rf "${INTERMEDIATE_DIRECTORY}"
 rm -rf "${DIST_DIRECTORY}"
