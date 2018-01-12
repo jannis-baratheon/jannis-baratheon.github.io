@@ -1,9 +1,11 @@
 #!/bin/sh
 
-if [ -z "$1" ]
-then
-  echo "Which folder do you want to deploy to GitHub Pages (hosted on the master branch)?"
-  exit 1
-fi
+# Based on this SO post: https://stackoverflow.com/a/33178233/4494577
 
-git subtree push --prefix $1 origin test
+SOURCE_BRANCH=develop
+SOURCE_DIRECTORY=dist
+TARGET_BRANCH=master
+
+echo Deploying "${SOURCE_DIRECTORY}" directory from the "${SOURCE_BRANCH}" to the "${TARGET_BRANCH}" branch...
+git push origin `git subtree split --prefix "${SOURCE_DIRECTORY}" "${SOURCE_BRANCH}"`:"${TARGET_BRANCH}" --force
+echo Done.
