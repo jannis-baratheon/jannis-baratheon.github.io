@@ -48,6 +48,13 @@
   },
   "work": [
       {
+      "company": "Fingo",
+      "position": "Software Engineer",
+      "website": "http://fingo.pl/",
+      "startDate": "2018-01",
+      "summary": "A leading provider of financial reporting software for EU banks.",
+    },
+      {
       "company": "Empirica",
       "position": "Software Engineer",
       "website": "http://empirica.pl/",
