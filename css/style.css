@@ -10,4 +10,8 @@ iframe.fill-viewport {
 	margin:0;
 	padding:0;
 	overflow:hidden;
-} 
+}
+
+.download-links {
+	background-color: rgba(245, 245, 245, 0.9);
+}
