@@ -1,0 +1,296 @@
+{
+  "basics": {
+    "name": "Janusz Wiśniowski",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "janusz(@at)januszwisniowski(.dot)it",
+    "website": "https://januszwisniowski.it/",
+    "summary": "A software engineer in business since 2006. Enthusiast of defaults, standards and best practices, opponent of \"reinventing the wheel\". Highly focused on creating software meeting highest architecture and code quality standards. Big fan of open software and agile methodologies. Values general computer skills over mastering a particular technology. Passionate mentor finding joy in helping others excel. Experienced in end-to-end design and development of scalable distributed systems. Worked alongside large, global customers and leading technical teams delivering solutions used by millions of users. Has proven ability to work in globally-distributed teams.",
+    "location": {
+      "address": "ul. Horbaczewskiego 7/24",
+      "postalCode": "54-130",
+      "city": "Wrocław",
+      "countryCode": "PL",
+      "region": "Dolnośląskie"
+    },
+    "profiles": [
+      {
+        "network": "Stack Overflow",
+        "username": "jannis",
+        "url": "https://stackoverflow.com/users/4494577/jannis"
+      },
+      {
+        "network": "Linked In",
+        "username": "januszwisniowski",
+        "url": "https://www.linkedin.com/in/janusz-wisniowski-2976004/"
+      },
+      {
+        "network": "Bitbucket",
+        "username": "jannisbaratheon",
+        "url": "https://bitbucket.org/account/user/jannisbaratheon/"
+      },
+      {
+        "network": "Github",
+        "username": "jannis-baratheon",
+        "url": "https://github.com/jannis-baratheon"
+      },
+      {
+        "network": "Toptal",
+        "username": "janusz-wisniowski",
+        "url": "https://www.toptal.com/resume/janusz-wisniowski"
+      },
+      {
+        "network": "CEIDG",
+        "username": "Janusz Wiśniowski IT",
+        "url": "https://prod.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=b08850c3-0b71-4fae-b117-2d24627bbcd2"
+      }
+    ]
+  },
+  "work": [
+      {
+      "company": "Empirica",
+      "position": "Software Engineer",
+      "website": "http://empirica.pl/",
+      "startDate": "2017-02",
+      "endDate": "2017-12",
+      "summary": "A developing firm from Wrocław specializing in creating fin-tech solutions using the Java/Spring/AngularJS stack.",
+      "highlights": [
+        "Engaged in building Empirica's robo-advisory platform (Java/Spring/AngularJS)",
+        "Worked on making company's algorithmic trading platform compliant with the MIFID2 directive (Java)",
+        "Designed, planned and partly developed a virtual payment terminal solution backed by Mangopay's Marketplace Payment Model (Java/Spring/Mangopay API/AngularJS)",
+        "Worked on a critical back-office application and fitting it into a larger system developed for Credit Agricole EFL, one of the main customers (Java/Spring/AngularJS)",
+        "Worked with junior- and mid- level developers on improving their coding and project skills"
+      ]
+    },
+    {
+      "company": "Infusion Development",
+      "position": "Software Engineer",
+      "website": "https://www.infusion.com/",
+      "startDate": "2014-08",
+      "endDate": "2017-01",
+      "summary": "A global consultancy company, currently part of Avanade.",
+      "highlights": [
+        "Participated in many short-term delivery projects in various technologies (both front-end and back-end)  for both external (mostly enterprise) and internal customers.",
+        "Worked in a team responsible for developing the rate calculation module in an insurance renewal SPA web application for MetLife (AngularJS / Java+Jersey+Hibernate).",
+        "Co-designed a client-server FX trading application with a desktop JavaFX client and AKKA messaging for Wells Fargo. Later implemented the window manager module allowing the users to set up complex window layouts (grouping and stacking) and save them as layout profiles. Complexity of the component required extending the standard JavaFX with low-level WinAPI calls.",
+        "Worked on Infusion's own product Pulse, which can be referred to as a retail device management service. It provides software installation, upgrading, monitoring and metrics collecting capabilities for a group of devices (phones, kiosks). Developed a supporting dashboard application for reporting aggregate metrics from multiple Pulse environments (.NET WebApi/Node.js/React).",
+        "Performed architecture and security reviews for internal applications.",
+        "Created a plug-in for embedding custom JIRA-sourced reports and visualizations in Confluence to be used in sales documents and reports.",
+        "Worked on a few minor plug-ins for internal systems support - mostly for Atlassian's products (Confluence, Bitbucket-Stash, JIRA).",
+        "Converted a batch-driven Apache Spark app to stream processing (Spark Streaming / Kafka) for Barclays. Also created a test data generator for the engine.",
+        "Developed a web application for managing employee feedback sessions. ASP MVC application with a Bootstrap and JQuery powered front-end and Microsoft CRM 2016 as a data storage.",
+        "Extended the Spring MVC REST API for the next versions of iOS and Android mobile apps for PLS Logistics. Project on a fully remote team spread across a few timezones (US West Coast, Pittsburgh, Wrocław, Kraków)."
+      ]
+    },
+    {
+      "company": "Credit Suisse (via Infusion Development)",
+      "position": "Software Engineer",
+      "website": "https://www.credit-suisse.com/pl/pl.html",
+      "startDate": "2012-06",
+      "endDate": "2014-07",
+      "summary": "Credit Suisse Group AG is a Switzerland-based multinational financial services holding company headquartered in Zürich that operates the Credit Suisse Bank and other financial services investments. The bank engaged Infusion to help them with implementing the Strategic Risk Program - a movement towards the improvement and unification of the existing risk infrastructure.",
+      "highlights": [
+        "Helped Infusion deliver a tool-set to support Credit-Suisse's main risk calculation engine - PriMo. The end product was called SWorM ('Scheduler WORkflow and Monitoring') and it improved the way the risk calculations run on top of PriMo are scheduled, designed, planned, and audited.",
+        "Engaged in the design and kick off of SWorM in the early stage of the project.",
+        "Later became part of the UI development team in SWorM. The team managed to deliver a consistent, reliable, and usable user experience for SWorM coherent with other applications across the bank."
+      ]
+    },
+    {
+      "company": "Opera Software",
+      "position": "Software Engineer",
+      "website": "https://www.opera.com",
+      "startDate": "2009-01",
+      "endDate": "2012-05",
+      "summary": "Opera Software is a global company primarily known for its multi-platform web browsers available for a vast selection of devices including mobiles and TVs. The company is involved in maintaining the web standards as a member of W3C. Apart from their browsers Opera's portfolio also includes network traffic optimization systems and advertisement services.",
+      "highlights": [
+        "Worked in Opera Mini department delivering a product which brings web-browsing capabilities to almost any device and provides a highly effective network traffic optimization engine.",
+        "Engaged in developing Mini Server - large-scale cloud back-end for the Opera Mini client application.",
+        "Delivered many successful Opera Mini customizations for major customers from the mobile industry including Vodafone, T-Mobile, Verizon, South Korean Telecom, Bytemobile, TATA, Motricity.",
+        "Worked closely with customer's engineering teams taking part in project management (working on SOWs, release plans, planning the functionality, managing resources).",
+        "Had my part in taking Opera Mini from 20 mln users in 2009 to over 180 mln in 2012."
+      ]
+    },
+    {
+      "company": "Research & Engineering Center",
+      "position": "Software Developer",
+      "website": "http://www.rec-global.com/",
+      "startDate": "2008-10",
+      "endDate": "2008-12",
+      "summary": "An automotive project for Continental AG. Mostly on-site training in the technologies, systems and procedures used in the automotive industry. The project ended prematurely.",
+      "highlights": []
+    },
+    {
+      "company": "Power Media",
+      "position": "Software Engineer",
+      "website": "https://www.power.com.pl/",
+      "startDate": "2007-09",
+      "endDate": "2008-09",
+      "summary": "Power Media is a Polish company providing software development, recruitment and IT personnel outsourcing services.",
+      "highlights": [
+        "Took part in front-end and back-end rework of the trip-selling engine at TravelPlanet - the biggest Polish on-line travel broker.",
+        "Replaced an obsolete non-supported framework preserving compatibility with other systems in the company.",
+        "Participated in implementation of the complete process of purchasing a trip on-line.",
+        "Worked at integrating data supplied by multiple vendors in a number of formats."
+      ]
+    },
+    {
+      "company": "InsERT",
+      "position": "Software Engineer",
+      "website": "https://www.insert.com.pl/",
+      "startDate": "2006-07",
+      "endDate": "2007-06",
+      "summary": "InsERT is one of the best known Polish software houses offering products that support sales and production improving operations in accounting, financial, and human resources departments and facilitating the analysis of a company's overall standing. The software is aimed at small- and medium-sized businesses. Started at InsERT when an academic project with me on board was awarded 3rd place in \"Odkrywcy z kasą 2006\" competition set up by the company.",
+      "highlights": [
+        "Made an academic project of integrating InsERT's flagship SubiektGT with OsCommerce on-line store solution go commercial as oscGT.",
+        "Contributed to Sello - platform supporting on-line sales on EBay and Allegro (with SubiektGT integration)."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Wrocław University of Science and Technology",
+      "area": "Computer Science (Information Systems)",
+      "studyType": "Master of Science in Engineering",
+      "startDate": "2002-10",
+      "endDate": "2007-06",
+      "gpa": "4.55 (2-5.5 scale)"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Code Complete",
+      "date": "2014-12",
+      "awarder": "Infusion Development",
+      "summary": "The award highlights teams or individuals for dedication on a project that has made a significant impact on the company in the areas of innovation. Awarded to the team I worked with on the SWorM project (at Credit Suisse)."
+    },
+    {
+      "title": "Travelplanet's Award",
+      "date": "2008-05",
+      "awarder": "Travelplanet.pl",
+      "summary": "Awarded \"for masterly project performance\"."
+    },
+    {
+      "title": "Odkrywcy z kasą 2006",
+      "date": "2006-05",
+      "awarder": "InsERT",
+      "summary": "3rd place awarded to an academic project by the ThinkWare team, which I was a part of, for developing an integration solution between InsERT's sales-support product with osCommerce - an open-source online store solution."
+    },
+    {
+      "title": "Scientific Scholarship",
+      "date": "2003",
+      "awarder": "Wrocław University Of Technology",
+      "summary": "Scientific scholarship awarded to students with GPA exceeding a particular threshold."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Data mining web server’s logs using the sequential patterns",
+      "publisher": "Wrocław University Of Technology",
+      "releaseDate": "2007.06",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development - Front-end",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "AngularJS",
+        "Bootstrap 3+",
+        "JQuery"
+      ]
+    },
+    {
+      "name": "Web Development - Back-end",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Spring",
+        "Hibernate",
+        "Jersey",
+        "SQL - MySQL, MS SQL, Oracle"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "Intellij IDEA",
+        "GIT",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Platforms",
+      "level": "",
+      "keywords": [
+        "Windows",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Paradigms",
+      "level": "",
+      "keywords": [
+        "Agile",
+        "TDD",
+        "REST"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "",
+      "keywords": [
+        "Atlassian REST APIs - Bitbucket, Confluence, JIRA",
+        "Atlassian SDK"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Football (Soccer)",
+        "Martial Arts",
+        "Bicycling"
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Marcin Hudyma - Software Director @ InsERT",
+      "reference": "Janusz was carrying out his duties very reliably, contributing with many valuable and unique ideas. I'm convinced that he is a person who will rise to many more ambitious challenges in other companies."
+    },
+    {
+      "name": "Kuba Puchar - Country Manager @ Opera Software",
+      "reference": "We found Mr. Wiśniowski as very skilled, innovative, self-driven and reliable software developer and we are really sorry he decided to leave our company."
+    },
+    {
+      "name": "Patryk Stopyra - Software Developer @ Empirica",
+      "reference": "I worked together with Janusz in a successful IT project for financial industry. I was amazed at his passion to sharing his knowledge, experience and helping others. I really appreciated also his directness - he does not mince his words, what is very important in maintaining effective team communication and good ambiance. I have learned a lot from Janusz and I wish I could meet him again in another project."
+    },
+    {
+      "name": "Marek Kuźniar - Software Developer @ Empirica",
+      "reference": "Janusz is great mentor with a lot of knowledge and the ability to pass it further. Working with him was a pleasure."
+    }
+  ]
+}
