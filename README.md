@@ -14,7 +14,7 @@ The output is generated in the [`dist`](https://github.com/jannis-baratheon/jann
 
 # Deploying
 
-The `master` branch is hosted on Github Pages on https://januszwisniowski.it.
+The `master` branch is hosted on Github Pages under https://januszwisniowski.it.
 
     ./deploy.sh
 
