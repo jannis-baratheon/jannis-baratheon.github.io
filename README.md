@@ -1,6 +1,6 @@
 # My resume
 
-My professional resume - [click here](https://jannis-baratheon.github.io/resume/)
+My professional resume - [click here](https://januszwisniowski.it/)
 
 # Building
 
