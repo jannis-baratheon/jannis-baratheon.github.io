@@ -10,7 +10,7 @@ My professional resume - [click here](https://januszwisniowski.it/)
 1. Run `yarn`
 1. Run `build.sh`
 
-The output is generated in the `docs` directory.
+The output is generated in the [`dist`](https://github.com/jannis-baratheon/jannis-baratheon.github.io/tree/develop/dist) directory.
 
 # Acknowledgements
 
