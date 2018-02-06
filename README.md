@@ -1,6 +1,6 @@
 # My resume
 
-My professional resume - [click here](https://januszwisniowski.it/)
+My professional resume hosted on https://januszwisniowski.it.
 
 # Building
 
@@ -14,7 +14,7 @@ The output is generated in the [`dist`](https://github.com/jannis-baratheon/jann
 
 # Deploying
 
-The `master` branch is hosted on Github Pages as https://januszwisniowski.it/.
+The `master` branch is hosted on Github Pages on https://januszwisniowski.it.
 
     ./deploy.sh
 
