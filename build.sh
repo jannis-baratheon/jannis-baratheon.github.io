@@ -24,7 +24,7 @@ mkdir -p "${DIST_DIRECTORY}"/vendor/js
 mkdir -p "${DIST_DIRECTORY}"/vendor/fonts
 
 cp src/CNAME "${DIST_DIRECTORY}"
-cp src/index.html "${DIST_DIRECTORY}"
+cp src/*.html "${DIST_DIRECTORY}"
 cp src/style.css "${DIST_DIRECTORY}"/css
 cp src/script.js "${DIST_DIRECTORY}"/js
 cp "${INTERMEDIATE_DIRECTORY}"/resume.html "${INTERMEDIATE_DIRECTORY}"/resume.pdf "${INTERMEDIATE_DIRECTORY}"/resume.txt "${INTERMEDIATE_DIRECTORY}"/resume.md "${DIST_DIRECTORY}"/resumes
