@@ -7,8 +7,7 @@
     "font-awesome": "^4.7.0",
     "hackmyresume": "^1.8.0",
     "jquery": "^3.2.1",
-    "jsonresume-theme-flat": "^0.3.7",
-    "jsonresume-theme-flat-custom": "jannis-baratheon/jsonresume-theme-flat#v0.0.1",
+    "jsonresume-theme-flat-custom": "jannis-baratheon/jsonresume-theme-flat#v0.0.2",
     "popper.js": "^1.12.9"
   }
 }

@@ -11,7 +11,7 @@ rm -rf "${DIST_DIRECTORY}"
 
 # build resume
 node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/resume.html -t node_modules/jsonresume-theme-flat-custom
-node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/resume.pdf -t node_modules/jsonresume-theme-flat
+node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/resume.pdf -t node_modules/jsonresume-theme-flat-custom
 node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/resume.txt
 node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/resume.md
 
