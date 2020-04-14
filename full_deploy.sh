@@ -2,7 +2,7 @@
 
 VERSION=$1
 
-if [ ! -z "$(git status --porcelain)" ]
+if [ -n "$(git status --porcelain)" ]
 then
 	echo Working directory needs to be clean to perform this operation.
 	exit 1
@@ -32,7 +32,7 @@ fi
 echo Pushing dist and tags...
 git add -A .
 git commit -m "Deploying ${VERSION}"
-git tag -a -m "${VERSION} release" ${VERSION}
+git tag -a -m "${VERSION} release" "${VERSION}"
 git push origin
 git push --tags
 
