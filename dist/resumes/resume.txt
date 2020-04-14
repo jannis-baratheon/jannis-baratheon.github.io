@@ -1,10 +1,10 @@
 Janusz Wiśniowski
+Email: janusz(@at)januszwisniowski(.dot)it
 
-
-
+Web: https://januszwisniowski.it/
 ================================================================================
 
-
+A software engineer in business since 2006. Enthusiast of defaults, standards and best practices, opponent of "reinventing the wheel". Highly focused on creating software meeting highest architecture and code quality standards. Big fan of open software and agile methodologies. Values general computer skills over mastering a particular technology. Passionate mentor finding joy in helping others excel. Experienced in end-to-end design and development of scalable distributed systems. Worked alongside large, global customers and leading technical teams delivering solutions used by millions of users. Has proven ability to work in globally-distributed teams.
 
 SKILLS -------------------------------------------------------------------------
 
@@ -18,7 +18,10 @@ SKILLS -------------------------------------------------------------------------
 EMPLOYMENT ---------------------------------------------------------------------
 
 Software Engineer, Fingo (2018-01 — Present)
-A leading provider of financial reporting software for EU banks.
+A leading provider of financial reporting software for the banking industry.
+- Development and maintenance of the 15-year-old codebase of Asist financial reporting family of products. Ensuring timely deliveries and quality of products sent regularly to several dozens of clients, including most of the significant Polish banks (with National Bank Of Poland amongst them). Buzzwords: Java, Groovy, Kotlin, Gradle, Oracle DB, Oracle Weblogic, Spring, Spring-Boot, JUnit 4 and 5 Jupiter, Testcontainers.
+- Mostly active in the QA automation, release management and developer experience areas.
+- Also heavily involved in dev-ops side of things (Jenkins CI, Docker, Gradle).
 
 Software Engineer, Empirica (2017-02 — 2017-12)
 A developing firm from Wrocław specializing in creating fin-tech solutions using the Java/Spring/AngularJS stack.
