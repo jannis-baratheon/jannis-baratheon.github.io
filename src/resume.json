@@ -52,8 +52,10 @@
       "position": "Software Engineer",
       "website": "http://fingo.pl/",
       "startDate": "2018-01",
-      "summary": "A leading provider of financial reporting software for EU banks.",
-	  "highlights": []
+      "summary": "A leading provider of financial reporting software for the banking industry.",
+	  "highlights": ["Development and maintenance of the 15-year-old codebase of Asist financial reporting family of products. Ensuring timely deliveries and quality of products sent regularly to several dozens of clients, including most of the significant Polish banks (with National Bank Of Poland amongst them). Buzzwords: Java, Groovy, Kotlin, Gradle, Oracle DB, Oracle Weblogic, Spring, Spring-Boot, JUnit 4 and 5 Jupiter, Testcontainers.",
+	    "Mostly active in the QA automation, release management and developer experience areas.",
+		"Also heavily involved in dev-ops side of things (Jenkins CI, Docker, Gradle)."]
     },
     {
       "company": "Empirica",
