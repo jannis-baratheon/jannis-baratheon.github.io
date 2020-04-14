@@ -7,5 +7,5 @@ SOURCE_DIRECTORY=dist
 TARGET_BRANCH=master
 
 echo Deploying "${SOURCE_DIRECTORY}" directory from the "${SOURCE_BRANCH}" to the "${TARGET_BRANCH}" branch...
-git push origin `git subtree split --prefix "${SOURCE_DIRECTORY}" "${SOURCE_BRANCH}"`:"${TARGET_BRANCH}" --force
+git push origin "$(git subtree split --prefix "${SOURCE_DIRECTORY}" "${SOURCE_BRANCH}")":"${TARGET_BRANCH}" --force
 echo Done.
