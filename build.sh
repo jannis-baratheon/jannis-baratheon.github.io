@@ -2,6 +2,7 @@
 
 INTERMEDIATE_DIRECTORY=intermediate
 DIST_DIRECTORY=dist
+RESUME_FILE_NAME_BASE=resume-janusz-wisniowski
 
 yarn
 
@@ -10,10 +11,10 @@ rm -rf "${INTERMEDIATE_DIRECTORY}"
 rm -rf "${DIST_DIRECTORY}"
 
 # build resume
-node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/resume.html -t node_modules/jsonresume-theme-flat-custom
-node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/resume.pdf -t node_modules/jsonresume-theme-flat-custom
-node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/resume.txt
-node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/resume.md
+node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/"${RESUME_FILE_NAME_BASE}".html -t node_modules/jsonresume-theme-flat-custom
+node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/"${RESUME_FILE_NAME_BASE}".pdf -t node_modules/jsonresume-theme-flat-custom
+node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/"${RESUME_FILE_NAME_BASE}".txt
+node_modules/hackmyresume/dist/cli/index.js BUILD src/resume.json TO "${INTERMEDIATE_DIRECTORY}"/"${RESUME_FILE_NAME_BASE}".md
 
 # create dist directory structure
 mkdir -p "${DIST_DIRECTORY}"/resumes
@@ -27,8 +28,8 @@ cp src/CNAME "${DIST_DIRECTORY}"
 cp src/*.html "${DIST_DIRECTORY}"
 cp src/style.css "${DIST_DIRECTORY}"/css
 cp src/script.js "${DIST_DIRECTORY}"/js
-cp "${INTERMEDIATE_DIRECTORY}"/resume.html "${INTERMEDIATE_DIRECTORY}"/resume.pdf "${INTERMEDIATE_DIRECTORY}"/resume.txt "${INTERMEDIATE_DIRECTORY}"/resume.md "${DIST_DIRECTORY}"/resumes
-./node_modules/bestzip/bin/cli.js "${DIST_DIRECTORY}"/resumes/resume.zip "${DIST_DIRECTORY}"/resumes/resume.*
+cp "${INTERMEDIATE_DIRECTORY}"/"${RESUME_FILE_NAME_BASE}".html "${INTERMEDIATE_DIRECTORY}"/"${RESUME_FILE_NAME_BASE}".pdf "${INTERMEDIATE_DIRECTORY}"/"${RESUME_FILE_NAME_BASE}".txt "${INTERMEDIATE_DIRECTORY}"/"${RESUME_FILE_NAME_BASE}".md "${DIST_DIRECTORY}"/resumes
+./node_modules/bestzip/bin/cli.js "${DIST_DIRECTORY}"/resumes/"${RESUME_FILE_NAME_BASE}".zip "${DIST_DIRECTORY}"/resumes/"${RESUME_FILE_NAME_BASE}".*
 
 # css
 cp node_modules/bootstrap/dist/css/bootstrap.min.css "${DIST_DIRECTORY}"/vendor/css
