@@ -16,7 +16,7 @@ fi
 
 if git rev-parse "${VERSION}" >/dev/null 2>&1
 then
-	echo The version ${VERSION} already exists.
+	echo The version "${VERSION}" already exists.
 	exit 1
 fi
 
